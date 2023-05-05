@@ -9,6 +9,18 @@ public class Datatypes{
         int resultant = addition(2, 5);
         System.out.println(my_additionFunction);
         System.out.println(resultant);
+// Using special characters in java
+        //a new line uses (\n)
+        String txt = "Hello \nWorld!";
+        System.out.println(txt);
+
+        //return the content after the special character using a carriage return
+        String carriage = "This \rLife is not my own";
+        System.out.println(carriage);
+
+//        adding a tab space using the \t (tab) character
+        String tab_space = "Hallo\t there, am using the tab special character";
+        System.out.println(tab_space);
     }
 
     public static int addition(int x, int y){
@@ -16,4 +28,6 @@ public class Datatypes{
 
         return(result);
     }
+
+
 }
