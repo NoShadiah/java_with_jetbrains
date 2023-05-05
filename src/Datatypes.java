@@ -21,6 +21,10 @@ public class Datatypes{
 //        adding a tab space using the \t (tab) character
         String tab_space = "Hallo\t there, am using the tab special character";
         System.out.println(tab_space);
+
+//        Adding a backspace in a string using the backspace operator (\b)
+        String Backspace = "Java \nScript is not java";
+        System.out.println(Backspace);
     }
 
     public static int addition(int x, int y){
