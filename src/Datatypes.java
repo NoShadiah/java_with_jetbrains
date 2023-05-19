@@ -7,11 +7,14 @@ public class Datatypes{
         long my_long = 2_000_000_354L;
         int my_additionFunction = addition(my_short, my_int);
         int resultant = addition(2, 5);
-        System.out.println(my_additionFunction);
-        System.out.println(resultant);
+//        System.out.println(my_additionFunction);
+//        System.out.println(resultant);
 // Using special characters in java
         //a new line uses (\n)
-        String txt = "Hello \nWorld!";
+        String txt = "Hello \nMy name is promise";
+        String myarray = "Java Exercises";
+        System.out.println(myarray.charAt(0) );
+
         System.out.println(txt);
 
         //return the content after the special character using a carriage return
@@ -20,11 +23,15 @@ public class Datatypes{
 
 //        adding a tab space using the \t (tab) character
         String tab_space = "Hallo\t there, am using the tab special character";
-        System.out.println(tab_space);
+//        System.out.println(tab_space);
 
 //        Adding a backspace in a string using the backspace operator (\b)
-        String Backspace = "Java \nScript is not java";
-        System.out.println(Backspace);
+        String Backspace = "Java \bScript is not java";
+//        System.out.println(Backspace);
+
+//        Still making research concerning the form_feed operator
+        String Formfeed = "Java \bScript is not java";
+//        System.out.println(Formfeed);
     }
 
     public static int addition(int x, int y){
